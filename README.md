@@ -1,7 +1,15 @@
 # emailsGeneratorBookmarklet
+This bookmarklet generate an email list depending on few arguments :
+
+    - Your firstname
+    - Your lastname
+    - Seperators that could be added in prefix
+    - The domain you wish to linked to
+
+Domain can be autofilled depending on your location in browser.
 
 ##  :open_mouth: To use it  :ok_hand:
-Open the Add-On manager (accessible on firefox at the url "about:debugging") and click on a button like "Load a temporary module".
-It will open a file uploader, then you will just have to submit the manifest.json.
+Create manually new bookmark in which you should copy the minfied version of the bookmarklet.
+Click on the bookmark when you wish to get a potential email list.
 
 ![trello-bookmarklet-checklistfromlist-101.gif](presentation.gif)
