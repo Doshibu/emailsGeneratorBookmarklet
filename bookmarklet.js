@@ -55,8 +55,8 @@ function changeEmail () {
       showCancelButton: true,
       cancelButtonText: 'Close',
       confirmButtonText: 'Go!',
-      html: 'Firstname <input id="email-generator-firstname" type="text" class="swal2-input" placeholder="Firstname" autofocus>' +
-        'Lastname <input id="email-generator-lastname" type="text" class="swal2-input" placeholder="Lastname">' +
+      html: 'Firstname <input id="email-generator-firstname" type="text" class="swal2-input" name="firstname" placeholder="Firstname" autofocus>' +
+        'Lastname <input id="email-generator-lastname" type="text" class="swal2-input" name="lastname" placeholder="Lastname">' +
         'Symbols <input id="email-generator-symbols" type="text" class="swal2-input" value="!#$%&*+-/=?^_`{|}~" placeholder="!#$%&*+-/=?^_`{|}~">' +
         'Domain <input id="email-generator-domain" type="text" class="swal2-input" value="' + document.domain + '" placeholder="' + document.domain + '">',
       preConfirm: function () {
@@ -93,4 +93,5 @@ function changeEmail () {
       }
     })
   }
+  start();
 })();
